@@ -1,17 +1,11 @@
 body {
   font-family: "Raleway", sans-serif; }
 
-.main-wrapper {
-  width: 100%; }
-
 .header-row {
   background-color: #23232e; }
 
 .img-logo {
-  padding-right: 30%;
-  padding-left: 30%;
-  padding-bottom: 100px;
-  padding-top: 120px; }
+  padding: 120px 30% 100px; }
 
 .header-text {
   color: #ffffff;
@@ -24,13 +18,79 @@ body {
   margin-bottom: 50px; }
 
 .about-me {
-  margin-left: 300px;
-  margin-right: 300px;
+  width: 50%;
+  margin-left: 24%;
   margin-top: 50px; }
 
 #first-about,
 #second-about {
   text-align: center;
   font-size: 16px; }
+
+#skills-title {
+  margin-bottom: 50px;
+  color: #818181;
+  font-weight: 500;
+  text-align: center; }
+
+.skills-row {
+  width: 100%;
+  background-color: #23232e; }
+
+.first-work-row {
+  display: flex; }
+
+.work-boxes {
+  margin-left: 20px;
+  width: 30%;
+  height: 220px;
+  background-color: #7b77c9;
+  float: left; }
+
+.text-boxes {
+  margin-left: 20px;
+  width: 30%;
+  height: auto;
+  float: left; }
+
+.work-title, .work-p {
+  color: #ffffff;
+  text-align: center; }
+
+.work-title {
+  font-size: 18px; }
+
+#btn-row {
+  margin-top: 50px; }
+
+.btn-contact {
+  margin-left: 160px;
+  border-radius: 0px;
+  background-color: #7b77c9 !important;
+  color: #ffffff; }
+
+/*responsive*/
+@media only screen and (max-width: 1260px) {
+  .work-boxes {
+    width: 28%;
+    height: 200px; }
+
+  .text-boxes {
+    width: 28%;
+    height: auto;
+    margin-left: 20px; } }
+@media only screen and (max-width: 396px) {
+  .text-boxes {
+    margin-left: 19px; }
+
+  .work-title {
+    font-size: 13px; }
+
+  .work-p {
+    font-size: xx-small; } }
+/*bootstrap things*/
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
 
 /*# sourceMappingURL=style.css.map */
