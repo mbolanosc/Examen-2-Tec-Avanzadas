@@ -1,0 +1,36 @@
+body {
+  font-family: "Raleway", sans-serif; }
+
+.main-wrapper {
+  width: 100%; }
+
+.header-row {
+  background-color: #23232e; }
+
+.img-logo {
+  padding-right: 30%;
+  padding-left: 30%;
+  padding-bottom: 100px;
+  padding-top: 120px; }
+
+.header-text {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center; }
+
+.header-p {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px; }
+
+.about-me {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px; }
+
+#first-about,
+#second-about {
+  text-align: center;
+  font-size: 16px; }
+
+/*# sourceMappingURL=style.css.map */
