@@ -61,12 +61,38 @@ body {
   font-size: 18px; }
 
 #btn-row {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .btn-contact {
   margin-left: 160px;
   border-radius: 0px;
-  background-color: #7b77c9 !important;
+  background-color: #7b77c9;
+  color: #ffffff; }
+
+.btn-subscribe {
+  border-radius: 0px;
+  background-color: #7b77c9;
+  color: #ffffff; }
+
+#contact-text {
+  text-align: center; }
+
+#contact-form {
+  background-color: #23232e;
+  width: 50%;
+  margin-left: 150px;
+  padding: 10px; }
+
+.footer-row {
+  background-color: #23232e;
+  margin-top: 50px; }
+
+.fa-twitter:before,
+.fa-dribbble:before,
+.fa-behance:before,
+.fa-instagram:before {
+  font-size: 30px;
   color: #ffffff; }
 
 /*responsive*/
