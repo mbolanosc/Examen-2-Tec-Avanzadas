@@ -32,11 +32,16 @@ body {
 	margin-top: 50px;
 }
 
+#about-me-row {
+	margin-bottom: 30px;
+}
+
 #first-about,
 #second-about {
 	text-align: center;
 	font-size: $body-font-size;
 }
+
 #skills-title {
 	margin-bottom: 50px;
 	color: $light-grey;
@@ -48,9 +53,11 @@ body {
 	width: 100%;
 	background-color: $dark-purple;
 }
+
 .first-work-row {
 	display: flex;
 }
+
 .work-boxes {
 	margin-left: 20px;
 	width: 30%;
@@ -58,82 +65,122 @@ body {
 	background-color: $light-purple;
 	float: left;
 }
-.work-desc{
-}
-.text-boxes{
+
+.work-desc {}
+
+.text-boxes {
 	margin-left: 20px;
 	width: 30%;
 	height: auto;
 	float: left;
 }
-.work-title,.work-p{
+
+.work-p,
+.work-title {
 	color: $white;
 	text-align: center;
 }
-.work-title{
+
+.work-title {
 	font-size: $work-title-size;
 }
-#btn-row{
+
+#btn-row {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.btn-contact{
-	margin-left: 160px;
-	border-radius: 0px;
-	background-color: $light-purple;
-	color: $white;
-}
-.btn-subscribe{
-	border-radius: 0px;
-	background-color: $light-purple;
-	color: $white;
-}
-#contact-text{
-	text-align: center;
-}
-#contact-form{
-	background-color: $dark-purple;
-	width: 50%;
+
+.btn-contact {
 	margin-left: 150px;
-	    padding: 10px;
+	border-radius: 0;
+	background-color: $light-purple;
+	color: $white;
 }
-.footer-row{
-	background-color: $dark-purple;
-	margin-top: 50px;
+
+#infinito {
+	left: 45%;
+	margin-top: 100px;
+	margin-bottom: 29px;
+	position: relative;
 }
-.fa-twitter:before,
-.fa-dribbble:before,
-.fa-behance:before,
-.fa-instagram:before{
-	font-size: $icons-size;
-	color:$white;
-}
-/*responsive*/
-@media only screen and (max-width: 1260px){
-	.work-boxes{
-		width: 28%;
-    height: 200px;
-	}
-	.text-boxes{
-		width: 28%;
-    height: auto;
-		margin-left: 20px;
-	}
-}
-@media only screen and (max-width: 396px){
-	.text-boxes{
-		margin-left: 19px;
-	}
-	.work-title{
-		font-size: 13px;
-	}
-	.work-p{
-		font-size: xx-small;
+
+#desc-contact {
+	max-width: 470px;
+	margin: auto;
+
+	p {
+		text-align: center;
+		font-size: $body-font-size;
+		margin-bottom: 43px;
 	}
 }
 
+form {
+	background-color: $dark-purple;
+	margin: auto;
+	padding: 20px 20px 5px 5px;
+	margin-bottom: 242px;
+	max-width: 700px;
+}
+
+#contact-btn {
+	background-color: $light-purple;
+	border-radius: 0;
+	color: $white;
+}
+
+.footer-row {
+	background-color: $dark-purple;
+	margin-top: 50px;
+}
+
+#icons-social{
+	margin-top: 86px;
+	margin-bottom: 86px;
+	margin-right: 40px;
+	text-align: center;
+	font-size: 43px;
+}
+.copyright{
+	color: $white;
+	text-align: center;
+}
+
+.fa-behance:before,
+.fa-dribbble:before,
+.fa-instagram:before,
+.fa-twitter:before {
+	font-size: $icons-size;
+	color: $white;
+}
+/*responsive*/
+@media only screen and (max-width: 1260px) {
+	.work-boxes {
+		width: 28%;
+		height: 200px;
+	}
+
+	.text-boxes {
+		width: 28%;
+		height: auto;
+		margin-left: 20px;
+	}
+}
+@media only screen and (max-width: 396px) {
+	.text-boxes {
+		margin-left: 19px;
+	}
+
+	.work-title {
+		font-size: 13px;
+	}
+
+	.work-p {
+		font-size: xx-small;
+	}
+}
 /*bootstrap things*/
-.row{
-	margin-right: 0px;
-	margin-left: 0px;
+.row {
+	margin-right: 0;
+	margin-left: 0;
 }
